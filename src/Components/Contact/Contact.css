@@ -17,7 +17,7 @@
 }
 
 .contact-icone {
-    width: 80px;
+    width: 35%;
     height: 100%;
     margin-right: 10px;
 }
@@ -41,7 +41,7 @@
     }
 
     .contact-icone {
-        width: 60px;
+        width: 15%;
         margin: 0 0 10px 0;
     }
 }
