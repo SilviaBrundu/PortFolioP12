@@ -5,6 +5,7 @@ const ScrollToHashElement = () => {
     let location = useLocation();
 
     let hashElement = useMemo(() => {
+        window.scrollTo(0, 0);
         let hash = location.hash;
         const removeHashCharacter = (str) => {
             const result = str.slice(1);
