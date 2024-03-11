@@ -11,7 +11,8 @@ import ScrollToHashElement from "../Components/ScrollToHashElement/ScrollToHashE
 function App() {
     return (
         <div className='body-container'>
-            <BrowserRouter>
+            <BrowserRouter
+                basename={import.meta.env.BASE_URL}>
                 <ScrollToHashElement />
                 <Header />
                 <Routes>

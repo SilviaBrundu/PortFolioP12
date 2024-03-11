@@ -22,7 +22,7 @@ function WorkSlide() {
         <section className='workSlide-container'>
             <div className='workSlide-pictures'>
                 {pictures.map((picture, index) => (
-                    <img key={index} src={picture} alt='projet' className={index === slide ? 'visible' : ''} />
+                    <img key={index} src={import.meta.env.BASE_URL + picture} alt='projet' className={index === slide ? 'visible' : ''} />
                 ))}
                 {pictures.length > 1 && (
                     <div className='slide-content'>
