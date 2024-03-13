@@ -6,7 +6,7 @@ function LinkGithub({ link }) {
 
     return (
         <div className='info-link-content'>
-            <NavLink to={link} className='info-link'>
+            <NavLink to={link} className='info-link' target="_blank">
                 Lien Github
             </NavLink>
         </div>
